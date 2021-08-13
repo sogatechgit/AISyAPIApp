@@ -15,13 +15,50 @@
 			[
 				"REFNUM|cap=Ref.No.;center;wd=100",
 				"DEVTITLE|cap=Title;mnw=120",
-				"ASSET|cap=Asset;mnw=100",
+				"ASSET|cap=Asset;mnw=150;mxw=150",
 				"RSCLSTAT|cap=Status;center;wd=80",
-				"RAISEDATE|cap=Raised;center;wd=80",
-				"APPROVED|cap=Approved;center;wd=80",
+				"RAISEDATE|cap=Raised;center;wd=100",
+				"APPROVED|cap=Approved;center;wd=180",
 				"CLOSED|cap=Closed;center;wd=100",
 				"STATUS|cap=Current Status;center;wd=110",
 				"RESPONSIBLE|cap=Responsible;wd=110",
+			],
+		"gridColumnsStatus":
+			[
+				"REFNUM|cap=Ref.No.;center;wd=100",
+				"DEVTITLE|cap=Title;mnw=120",
+				"ASSET|cap=Asset;mnw=150;mxw=150",
+				"DEVSTAT|cap=Status;center;wd=110",
+				"RAISEDATE|cap=Raised;center;wd=100",
+				"APPROVED|cap=Approved;center;wd=180",
+				"CLOSED|cap=Closed;center;wd=100",
+				"RSCLSTAT|cap=Current Status;center;wd=150",
+				"RESPONSIBLE|cap=Responsible;wd=110",
+			],
+		"gridColumnsState":
+			[
+				"REFNUM|cap=Ref.No.;center;wd=100",
+				"DEVTITLE|cap=Title;mnw=120",
+				"ASSET|cap=Asset;mnw=150;mxw=150",
+				"RSCLSTAT|cap=Status;center;wd=80",
+				"RAISEDATE|cap=Raised;center;wd=100",
+				"APPROVED|cap=Approved;center;wd=180",
+				"CLOSED|cap=Closed;center;wd=100",
+				"PRCOSTAT|cap=State;center;wd=110",
+				"RESPONSIBLE|cap=Responsible;wd=110",
+			],
+		"gridColumnsPending":
+			[
+				"REFNUM|cap=Ref.No.;center;wd=100",
+				"DEVTITLE|cap=Title;mnw=120",
+				"ASSET|cap=Asset;mnw=150;mxw=150",
+				"RSCLSTAT|cap=Status;center;wd=80",
+				"RAISEDATE|cap=Raised;center;wd=100",
+				"APPROVED|cap=Approved;center;wd=180",
+				"CLOSED|cap=Closed;center;wd=100",
+				"PRCOSTAT|cap=State;center;wd=110",
+				"RESPONSIBLE|cap=Responsible;wd=110",
+				"OVERDUEDAYS|cap=Overdue Days;center;wd=80",
 			],
 		"gridColumnsTest":
 			[
